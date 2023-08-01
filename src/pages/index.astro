@@ -2,14 +2,86 @@
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="/a2ecirclewhite.png" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Air2Earth</title>
+  </head>
+  <body>
+    <div
+      class="h-80 transition-all flex flex-row items-center fixed top-14 left-0 w-full bg-white/80 hover:bg-white/90 backdrop-blur-sm z-10"
+    >
+      <img
+        src="/a2e3.png"
+        alt="Air2Earth"
+        height="112"
+        width="112"
+        class="p-2 mr-2"
+      />
+      <div class="flex flex-col mr-5">
+        <h2 class="font-bold">Community Projects:</h2>
+        <div class="flex flex-row gap-2">
+          <a
+            href="https://www.youtube.com/watch?v=fdFq-1SpVPg"
+            class="group border-2 p-1 border-black transition-all hover:border-white hover:bg-black rounded-xl w-48"
+            target="_blank"
+          >
+            <img src="/a2eminimix.jpg" class="rounded-xl" />
+            <h3 class="text-sm font-bold text-black group-hover:text-white">
+              Bagriel Music's Mini Mix
+            </h3>
+            <p
+              class="text-xs animate-pulse font-thin italic text-black group-hover:text-white"
+            >
+              (now playing)
+            </p>
+          </a>
+          <a
+            href="https://open.spotify.com/playlist/7hkYNOIQkP9w0RZzqZuRuE?si=6caf0d05960b494c"
+            class="group border-2 p-1 border-black transition-all hover:border-white hover:bg-black rounded-xl w-48"
+            target="_blank"
+          >
+            <img src="/a2eauditoryuniverse.png" class="rounded-xl" />
+            <h3 class="text-sm font-bold text-black group-hover:text-white">
+              The Air2Earth Auditory Universe
+            </h3>
+            <p
+              class="text-xs font-thin italic text-black group-hover:text-white"
+            >
+              by mmatt
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="flex flex-col">
+        <h2 class="font-bold">Official Releases:</h2>
+        <div class="flex flex-row gap-2">
+          <a
+            href="https://music.apple.com/us/album/splash-house-august-2022-dj-mix/1644935781"
+            class="group border-2 p-1 border-black transition-all hover:border-white hover:bg-black rounded-xl w-48"
+            target="_blank"
+          >
+            <img src="/splashhouse.png" class="rounded-xl" />
+            <h3 class="text-sm font-bold text-black group-hover:text-white">
+              Splash house, August 2022 (DJ Mix)
+            </h3>
+            <p
+              class="text-xs font-thin italic text-black group-hover:text-white"
+            >
+              Apple Music Exclusive
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <iframe
+      src="https://www.youtube.com/embed/fdFq-1SpVPg?autoplay=1&loop=1"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:-1;"
+      allowfullscreen></iframe>
+  </body>
 </html>
